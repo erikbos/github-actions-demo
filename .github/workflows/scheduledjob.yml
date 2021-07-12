@@ -3,7 +3,7 @@ name: Scheduled job
 on:
   # every hour at xx:00, not garantueed
   schedule:
-    - cron: '* */1 * * * *'
+    - cron: '*/10 * * * *'
 
 jobs:
   refresh:
